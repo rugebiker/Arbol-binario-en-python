@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'arbolbinario.ui'
 #
-# Created: Sun Dec 12 20:07:01 2010
+# Created: Wed Dec 15 11:06:30 2010
 #      by: PyQt4 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -17,7 +17,7 @@ except AttributeError:
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(800, 607)
+        MainWindow.resize(800, 600)
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.gridLayoutWidget = QtGui.QWidget(self.centralwidget)
@@ -34,6 +34,8 @@ class Ui_MainWindow(object):
         self.botonretirar = QtGui.QPushButton(self.gridLayoutWidget)
         self.botonretirar.setObjectName(_fromUtf8("botonretirar"))
         self.red.addWidget(self.botonretirar, 0, 2, 1, 1)
+        spacerItem = QtGui.QSpacerItem(40, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
+        self.red.addItem(spacerItem, 0, 3, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.barramenu = QtGui.QMenuBar(MainWindow)
         self.barramenu.setGeometry(QtCore.QRect(0, 0, 800, 21))
